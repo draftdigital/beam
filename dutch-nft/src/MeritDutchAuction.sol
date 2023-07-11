@@ -31,7 +31,7 @@ contract MeritDutchAuction is Ownable {
     uint256 public minted;
     // Amount of NFTs minted per address
     mapping(address => uint256) public mintedPerAddress;
-    
+
     // Total amount of ETH raised
     uint256 public totalRaised; 
 
